@@ -1,0 +1,56 @@
+<http://utdallas/semwebclass/people#AnthonyBurgess>
+      a       "http://utdallas/semwebclass/vocabulary/person" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "Anthony Burgess" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+              "Writer" .
+
+<http://utdallas/semwebclass/people#StanleyKubrick>
+      a       "http://utdallas/semwebclass/vocabulary/person" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "Stanley Kubrick" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+              "Director" .
+
+<http://utdallas/semwebclass/people#PeterGeorge>
+      a       "http://utdallas/semwebclass/vocabulary/person" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "Peter George" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+              "Writer" .
+
+<http://utdallas/semwebclass/book#RedAlert>
+      a       "http://utdallas/semwebclass/vocabulary/book" ;
+      <http://purl.org/dc/elements/1.1/creator>
+              <http://utdallas/semwebclass/people#PeterGeorge> ;
+      <http://purl.org/dc/elements/1.1/title>
+              "Red Alert" .
+
+<http://utdallas/semwebclass/movie#DrStrangelove>
+      a       "http://utdallas/semwebclass/vocabulary/movie" ;
+      <http://utdallas/semwebclass/vocabulary/movie#BasedOnBook>
+              <http://utdallas/semwebclass/book#RedAlert> ;
+      <http://utdallas/semwebclass/vocabulary/movie#DirectedBy>
+              <http://utdallas/semwebclass/people#StanleyKubrick> ;
+      <http://utdallas/semwebclass/vocabulary/movie#Title>
+              "Dr. Strangelove" ;
+      <http://utdallas/semwebclass/vocabulary/movie#Year>
+              "1961" .
+
+<http://utdallas/semwebclass/movie#AClockworkOrange>
+      a       "http://utdallas/semwebclass/vocabulary/movie" ;
+      <http://utdallas/semwebclass/vocabulary/movie#BasedOnBook>
+              <http://utdallas/semwebclass/book#AClockworkOrange> ;
+      <http://utdallas/semwebclass/vocabulary/movie#DirectedBy>
+              <http://utdallas/semwebclass/people#StanleyKubrick> ;
+      <http://utdallas/semwebclass/vocabulary/movie#Title>
+              "A Clockwork Orange" ;
+      <http://utdallas/semwebclass/vocabulary/movie#Year>
+              "1971" .
+
+<http://utdallas/semwebclass/book#AClockworkOrange>
+      a       "http://utdallas/semwebclass/vocabulary/book" ;
+      <http://purl.org/dc/elements/1.1/creator>
+              <http://utdallas/semwebclass/people#AnthonyBurgess> ;
+      <http://purl.org/dc/elements/1.1/title>
+              "A Clockwork Orange" .

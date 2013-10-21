@@ -1,0 +1,21 @@
+<http://utdallas/semwebclass/people#StanleyKubrick>
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "Stanley Kubrick" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+              "Director" .
+
+<http://utdallas/semwebclass/movie#DrStrangelove>
+      <http://utdallas/semwebclass/vocabulary/movie#DirectedBy>
+              <http://utdallas/semwebclass/people#StanleyKubrick> ;
+      <http://utdallas/semwebclass/vocabulary/movie#Title>
+              "Dr. Strangelove" ;
+      <http://utdallas/semwebclass/vocabulary/movie#Year>
+              "1961" .
+
+<http://utdallas/semwebclass/movie#AClockworkOrange>
+      <http://utdallas/semwebclass/vocabulary/movie#DirectedBy>
+              <http://utdallas/semwebclass/people#StanleyKubrick> ;
+      <http://utdallas/semwebclass/vocabulary/movie#Title>
+              "A Clockwork Orange" ;
+      <http://utdallas/semwebclass/vocabulary/movie#Year>
+              "1971" .

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Lab_1_1/src/Lab1_1_YogeshwaraKrishnan.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Lab1_1_YogeshwaraKrishnan"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Lab_1_1"/>
+</launchConfiguration>

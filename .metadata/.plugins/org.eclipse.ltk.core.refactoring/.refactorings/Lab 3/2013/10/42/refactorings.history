@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;semWeb.lab3.Lab3_2.readModelF()&apos; to &apos;readModelFromFile&apos;&#x0D;&#x0A;- Original project: &apos;Lab 3&apos;&#x0D;&#x0A;- Original element: &apos;semWeb.lab3.Lab3_2.readModelF()&apos;&#x0D;&#x0A;- Renamed element: &apos;semWeb.lab3.Lab3_2.readModelFromFile()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;readModelF&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;semWeb.lab3{Lab3_2.java[Lab3_2~readModelF" name="readModelFromFile" references="true" stamp="1381797046045" version="1.0"/>
+</session>

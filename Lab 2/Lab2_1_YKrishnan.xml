@@ -1,0 +1,19 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://utdallas/semwebclass/vocabulary/movie#" > 
+  <rdf:Description rdf:about="http://utdallas/semwebclass/people#StanleyKubrick">
+    <vcard:ROLE>Director</vcard:ROLE>
+    <vcard:FN>Stanley Kubrick</vcard:FN>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semwebclass/movie#DrStrangelove">
+    <j.0:DirectedBy rdf:resource="http://utdallas/semwebclass/people#StanleyKubrick"/>
+    <j.0:Year>1961</j.0:Year>
+    <j.0:Title>Dr. Strangelove</j.0:Title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semwebclass/movie#AClockworkOrange">
+    <j.0:DirectedBy rdf:resource="http://utdallas/semwebclass/people#StanleyKubrick"/>
+    <j.0:Year>1971</j.0:Year>
+    <j.0:Title>A Clockwork Orange</j.0:Title>
+  </rdf:Description>
+</rdf:RDF>

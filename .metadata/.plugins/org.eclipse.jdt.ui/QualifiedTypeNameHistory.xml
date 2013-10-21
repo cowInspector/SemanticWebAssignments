@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Resource"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.datatypes.xsd.XSDDatatype"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.vocabulary.DC"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.Property"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.vocabulary.VCARD"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.vocabulary.DC_11"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.vocabulary.RDF"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.sdb.SDBFactory"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.Query"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.QueryFactory"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.QueryExecution"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.QueryExecutionFactory"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.ResultSet"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.query.ResultSetFormatter"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="com.hp.hpl.jena.rdf.model.ModelFactory"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,45 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://utdallas/semwebclass/vocabulary/movie#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" > 
+  <rdf:Description rdf:about="http://utdallas/semwebclass/people#AnthonyBurgess">
+    <vcard:FN>Anthony Burgess</vcard:FN>
+    <rdf:type>http://utdallas/semwebclass/vocabulary/person</rdf:type>
+    <vcard:ROLE>Writer</vcard:ROLE>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semwebclass/people#StanleyKubrick">
+    <vcard:FN>Stanley Kubrick</vcard:FN>
+    <rdf:type>http://utdallas/semwebclass/vocabulary/person</rdf:type>
+    <vcard:ROLE>Director</vcard:ROLE>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semwebclass/people#PeterGeorge">
+    <vcard:FN>Peter George</vcard:FN>
+    <rdf:type>http://utdallas/semwebclass/vocabulary/person</rdf:type>
+    <vcard:ROLE>Writer</vcard:ROLE>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semwebclass/book#RedAlert">
+    <rdf:type>http://utdallas/semwebclass/vocabulary/book</rdf:type>
+    <dc:title>Red Alert</dc:title>
+    <dc:creator rdf:resource="http://utdallas/semwebclass/people#PeterGeorge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semwebclass/movie#DrStrangelove">
+    <j.0:BasedOnBook rdf:resource="http://utdallas/semwebclass/book#RedAlert"/>
+    <j.0:Title>Dr. Strangelove</j.0:Title>
+    <rdf:type>http://utdallas/semwebclass/vocabulary/movie</rdf:type>
+    <j.0:Year>1961</j.0:Year>
+    <j.0:DirectedBy rdf:resource="http://utdallas/semwebclass/people#StanleyKubrick"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semwebclass/movie#AClockworkOrange">
+    <j.0:BasedOnBook rdf:resource="http://utdallas/semwebclass/book#AClockworkOrange"/>
+    <j.0:Title>A Clockwork Orange</j.0:Title>
+    <rdf:type>http://utdallas/semwebclass/vocabulary/movie</rdf:type>
+    <j.0:Year>1971</j.0:Year>
+    <j.0:DirectedBy rdf:resource="http://utdallas/semwebclass/people#StanleyKubrick"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semwebclass/book#AClockworkOrange">
+    <rdf:type>http://utdallas/semwebclass/vocabulary/book</rdf:type>
+    <dc:title>A Clockwork Orange</dc:title>
+    <dc:creator rdf:resource="http://utdallas/semwebclass/people#AnthonyBurgess"/>
+  </rdf:Description>
+</rdf:RDF>
